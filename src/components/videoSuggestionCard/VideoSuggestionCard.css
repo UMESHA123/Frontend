@@ -1,0 +1,35 @@
+.suggested-video-card-container{
+    display: flex;
+    gap: 0.5em;
+    height: 8em;
+    margin: 0;
+    margin: 0.5em 0.5em;
+    cursor: pointer;
+}
+.suggested-video-card-img{
+    width: 15em;
+    height: 100%;
+}
+.suggested-video-card-img img{
+    width: 100%;
+    border-radius: 10px;
+    height: 100%;
+}
+.suggested-vidoe-title {
+    font-size: 1em;
+    text-transform: capitalize;
+    font-weight: 800;
+    width: 9em;
+    
+}
+.flex-views-day{
+    display: flex;
+    margin: 0.5em 0em;
+    gap: 0.5em;
+}
+.video-owner{
+    margin-top: 1em;
+}
+.suggested-video-card-info{
+    height: 8em;
+}

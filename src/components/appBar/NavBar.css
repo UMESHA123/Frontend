@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+.flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-left: 1em;
+    padding-right: 2em;
+    flex-wrap: wrap
+}
+nav{
+    background-color: rgb(5, 5, 5);
+    height: 4em;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+}
+.sidebar{
+    color: white;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+.logo-icon{
+    cursor: pointer;
+}
+.logo{
+    display: flex;
+    cursor: pointer;
+}
+.logo span{
+    font-weight: 700;
+    font-size: 2em;
+    color: white;
+}
+.button{
+    border: none;
+    height: 2.5em;
+    width: 5em;
+    border-radius: 5px;
+    font-size: 1em;
+    font-weight: 700;
+    background-color: blueviolet;
+    cursor: pointer;
+}
+.input{
+    display: flex;
+}
+.input input{
+    height: 2.3em;
+    width: 50em;
+    border-radius: 5px 0px 0px 5px;
+    border: none;
+    padding-left: 1em;
+    
+}
+.input button{
+    height: 2.3em;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+    width: 3em;
+    cursor: pointer;
+}
+.user-icon{
+    color: white;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    cursor: pointer;
+}
+.user-name{
+    color: white;
+    margin-right: 0.5em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+.uploadButton{
+    color: white;
+    font-size: 1.5em;
+    margin-right: 1em;
+    cursor: pointer;
+}

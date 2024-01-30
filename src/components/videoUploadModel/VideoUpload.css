@@ -1,0 +1,77 @@
+
+.model{
+    background-color: black;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 100;
+    color: white;
+    width: 40em;
+    border: 1px solid gray;
+    padding: 0em 2em 0em 0em;
+    border-radius: 10px;
+    box-shadow: rgba(0, 0, 0, 0.07) 0px 1px 2px, rgba(0, 0, 0, 0.07) 0px 2px 4px, rgba(0, 0, 0, 0.07) 0px 4px 8px, rgba(0, 0, 0, 0.07) 0px 8px 16px, rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
+}
+.drag-drop-container{
+    border: 3px dotted gray;
+    padding: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 5px;
+    margin: 1em;
+    width: 100%;
+    transition: linear 0.5s;
+}
+.drag-drop-container:hover{
+    background-color: rgba(218, 215, 215, 0.086);
+}
+.title-input input{
+    width: 100%;
+    margin: 1em;
+    border: none;
+    height: 2.5em;
+    padding-left: 1.5em;
+    border-radius: 5px;
+}
+.or{
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.text-area textarea{
+    width: 100%;
+    margin: 1em;
+    border-radius: 5px;
+    height: 15em;
+    padding-left: 1em;
+    padding-top: 1em;
+}
+.button-group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1.5em;
+    cursor: pointer;
+}
+.space{
+    margin-right: 2em;
+}
+.file-input{
+    width: 100%;
+    margin: 1.5em;
+    color: blueviolet;
+    border: 1px solid gray; 
+    padding: 1em 1em;
+    border-radius: 5px;
+}
+input[type=file]::file-selector-button{
+    background-color: blueviolet;
+    border: none;
+    height: 2em;
+    border-radius: 5px;
+    color: black;
+    font-weight: bold;
+    margin-right: 1em;
+}
